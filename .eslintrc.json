@@ -29,6 +29,8 @@
     "rules": {
         "react/jsx-props-no-spreading": "off",
         "no-use-before-define": "off",
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
         "prettier/prettier": "error",
         "space-before-function-paren": "off",
         "react/prop-types": "off",
