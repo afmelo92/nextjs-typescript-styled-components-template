@@ -2,19 +2,17 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { Container } from '../styles/pages/Home';
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>HELLOW FUCKERS</h1>
-        <h1>HELLO WORLD</h1>
-      </main>
-    </div>
+      <h1>HELLO WORLD</h1>
+    </Container>
   );
 };
 
